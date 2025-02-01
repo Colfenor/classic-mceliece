@@ -21,6 +21,16 @@ Line wrap the file at 100 chars.                                              Th
 * **Security**: in case of vulnerabilities.
 
 
+## [3.1.0] - 2025-02-02
+### Changed
+- Reduce stack usage on alloc
+- (refactor lib) Test kem interface against KATs
+### Added
+- Enable assertions outside test functionality only in debug mode
+### Fixed
+- update dependencies to latest versions
+- Fix clippy warnings eliding explicit lifetimes
+
 ## [3.0.0] - 2022-01-26
 ### Changed
 - Change from implementing NIST round 3 specification of Classic McEliece to
